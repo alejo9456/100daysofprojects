@@ -10,8 +10,6 @@
     <meta name="description" content="Breve descripción del contenido del proyecto">
     <!-- Boxicons -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <!-- Normalize -->
-    <link rel="stylesheet" href="css/normalize.css">
     <!-- Estilos -->
     <link rel="stylesheet" href="css/styles.css">
     <!-- Favicon -->
@@ -20,21 +18,19 @@
 </head>
 
 <body>
-
-    <h1>Frontend Club</h1>
-    <blockquote>
-        No te conformes con hacer las cosas bien, sino, busca la excelencia en todo lo que haces. Así te diferenciarás
-        de
-        los demás y lograrás el éxito.
-    </blockquote>
-
-    <style>
-        h1,
-        blockquote {
-            text-align: center;
-        }
-    </style>
-
+    <main class="profile-card">
+        <section class="profile-card__content">
+            <img class="profile-card__img" src="./images/avatar.png" alt="user-image">
+            <h1 class="profile-card__name">Henrietta Gregory</h1>
+            <span class="profile-card__address">Berkeley, CA </span>
+            <span class="profile-card__description visible">Ethnographer of computation and computational ethnographer; research staff at the Berkeley Institute for Data Science</span>
+        </section>
+        <footer class="profile-card__footer">
+            <img class="profile-card__icon" src="./images/twitter.svg" alt="Twitter">
+            <img class="profile-card__icon" src="./images/linkedin.svg" alt="LinkedIn">
+            <img class="profile-card__icon" src="./images/facebook.svg" alt="Facebook">
+        </footer>
+    </main>
 </body>
 
 </html>

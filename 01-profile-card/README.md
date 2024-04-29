@@ -25,32 +25,26 @@ Los usuarios deberían poder:
 
 ### Capturas
 
-Agrega capturas de pantalla en móvil, tabletas y escritorio.
+Capturas de pantalla en móvil y escritorio.
 
-![Captura](https://i.imgur.com/IkSnFRL.png)
-
-> 💡Firefox te permite hacer capturas de pantalla haciendo clic derecho `Hacer captura de pantalla`.
+![Captura-desktop](./capturas/desktop.png)
+![Captura-mobile](./capturas/mobile.png)
 
 ### Enlaces
 
 Agrega los enlaces de la solución del proyecto y el repositorio.
 
-- [Proyecto](#)
-- [Repositorio](#)
+- [Proyecto](https://01-profilecard.vercel.app/)
+- [Repositorio](https://github.com/alejo9456/100daysofprojects/tree/main/01-profile-card)
 
 ## Flujo de trabajo
-
-### Desarrollo
-
-Agrega el flujo de trabajo y las tecnologías que has utilizado para completar el proyecto.
-
-Ejemplo:
 
 **Estructura del proyecto**
 
 ```txt
 /
 📂
+├── 📂capturas/
 ├── 📂css/
 │ └── style.css
 ├── 📂images/
@@ -64,44 +58,14 @@ Ejemplo:
 2. Estilos CSS
 3. Animaciones CSS
 4. Metodología BEM
-5. Responsively App
 
-**Flujo de desarrollo**
-
-1. Análisis del diseño
-2. Configuración inicial
-   - Instalación de módulos y dependencias
-   - Vincular archivos y librerías
-   - Iniciar proyecto con Git
-3. Estilos CSS
-   - De arriba hacia abajo
-   - Definición de variables
-   - Estilos reutilizables
-   - Estilos personalizados
-   - Media queries
-4. Flujo de trabajo `mobile-first`
-
-
-Menú de navegación HTML usando BEM.
-
-```html
-<nav class="main-nav" aria-label="Main">
-  <ul class="main-nav__list">
-    <li class="main-nav__item">
-      <a href="#" class="main-nav__link">Home</a>
-    </li>
-    <li class="main-nav__item">
-      <a href="#" class="main-nav__link">Work</a>
-    </li>
-    <li class="main-nav__item">
-      <a href="#" class="main-nav__link">About us</a>
-    </li>
-  </ul>
-</nav>
-
-```
 
 ## Instalacion
+
+1. Clona el repositorio con ` git clonehttps://github.com/alejo9456/100daysofprojects.git`
+2. Navega al directorio del proyecto: `cd 100daysofprojects/01-profile-card`
+3. Abre el archivo HTML principal (index.html) en tu navegador web preferido.
+
 
 ## Contacto
 

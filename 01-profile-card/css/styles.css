@@ -1,30 +1,162 @@
-/* -----------------
-Tabla de contenidos:
---------------------
-1. Fuente ......................... 10
-2. Variables ...................... 13
-3. Estilos generales .............. 32
--------------------- */
 
-/* ----- Fuente ----- */
 @import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
 
-/* ----- Variables ----- */
 :root {
+  box-sizing: border-box;
+  font-size: 62.5%;
   /* colores */
-  --color: #181a1b;
-
+  --color: #202020;
+  --bg-principal:#232323;
   /* configuracion */
   --fuente: "Montserrat", sans-serif;
-  --ft-size: 1rem;
   --l-height: 22px;
 }
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  padding:0;
+  margin:0;
+}
+
 
 /* ----------------------------- */
 /* ----- Estilos generales ----- */
 /* ----------------------------- */
 body {
   font-family: var(--fuente);
-  background: linear-gradient(to right, #fffdcd, #a3e6ff);
-  color: var(--color);
+  background: var(--color);
+  color: #C2C2C2;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, img {
+  margin: 0;
+  padding: 0;
+}
+
+.profile-card{
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--bg-principal);
+  height: 53.4rem;
+  width: 300rem;
+}
+
+.profile-card__content{
+  padding-top: 5.6rem;
+  padding-left: 7.45rem;
+  padding-right: 7.45rem;
+  height: 43.9rem;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-card__img{
+  animation: fadeInText 0.3s ease-in-out forwards;
+  margin-bottom: 2.8rem;
+}
+
+.profile-card__name{
+  animation: fadeInText 0.5s ease-in-out forwards;
+  font-size: 1.8rem;
+  margin-bottom: 2.8rem;
+}
+
+.profile-card__address{
+  animation: fadeInText 0.7s ease-in-out forwards;
+  padding: 0.6rem 1.2rem;
+  border-radius: 1.2rem;
+  background-color: var(--color);
+  font-size: 1.4rem;
+  margin-bottom: 1.2rem;
+}
+
+
+.profile-card__description{
+  animation: fadeInText 0.9s ease-in-out forwards;
+  margin-bottom:3.6rem;
+  font-size: 1.4rem;
+  text-align:center;
+  line-height: var(--l-height);
+}
+
+.profile-card__description.visible {
+  opacity: 1;
+}
+
+@keyframes fadeInText {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
+
+.profile-card__footer{
+  padding-left: 6.9rem;
+  padding-right: 6.9rem;
+  display:flex;
+  align-items:center;
+  justify-content: space-between;
+  height: 9.5rem;
+  background-color: var(--color);
+  width:100%;
+}
+
+.profile-card__icon {
+  animation: fadeInText 1.1s ease-in-out forwards;
+  cursor:pointer;
+  filter: brightness(0.5);
+  transition: fill 0.3s ease-in-out;
+  width:2.5rem;
+  height:2.5rem;
+}
+
+.profile-card__icon:hover {
+  filter: brightness(1);
+  transition: fill 0.3s ease-in-out;
+}
+
+@media (min-width: 375px) and (max-width: 480px) {
+  .profile-card{
+    height: 53.4rem;
+    width: 41rem;
+  }
+  .profile-card__content{
+    padding-left: 6.45rem;
+    padding-right: 6.45rem;
+  }
+  
+  .profile-card__footer{
+    padding-left: 8.9rem;
+    padding-right: 8.9rem;
+  }  
+}
+
+@media (min-width: 480px) {
+  .profile-card{
+    height: 53.4rem;
+    width: 38.6rem;
+  }
+
+  .profile-card__content{
+    padding-left: 6.45rem;
+    padding-right: 6.45rem;
+  }
+  
+  .profile-card__footer{
+    padding-left: 8.9rem;
+    padding-right: 8.9rem;
+  }
+}
+
+

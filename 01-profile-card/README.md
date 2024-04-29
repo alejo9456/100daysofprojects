@@ -1,6 +1,6 @@
-# Nombre del proyecto - 100daysofprojects
+# 01-Profile-card - 100daysofprojects
 
-[Nombre del proyecto] construido con HTML, CSS y JavaScript, para mejorar nuestras habilidades de codificación. Este proyecto es parte del desafío #100daysofprojects promovido por [Frontend Club](https://www.facebook.com/frontendclubfb).
+[01-Profile-card] construido con HTML, CSS, para mejorar nuestras habilidades de codificación. Este proyecto es parte del desafío #100daysofprojects promovido por [Frontend Club](https://www.facebook.com/frontendclubfb).
 
 ![Screenshot](https://iharsh234.github.io/WebApp/images/demo/demo_landing.JPG)
 
@@ -9,18 +9,14 @@
 - [Descripcion](#descripcion)
   - [El desafio](#el-desafio)
   - [Capturas](#capturas)
-  - [Enlaces](#enlaces)
-- [Flujo de trabajo](#flujo-de-trabajo)
-  - [Desarrollo](#desarrollo)
-  - [Recursos](#recursos)
-- [Agradecimientos](#agradecimientos)
+- [Instalación](#instalación)
 - [Contacto](#contacto)
 
 ## Descripcion
 
 ### El desafio
 
-Codificar una **tarjeta de perfil personal**, usando HTML, CSS y JavaScript, y lograr que se parezca lo más posible al diseño.
+Codificar una **tarjeta de perfil personal**, usando HTML, CSS  y lograr que se parezca lo más posible al diseño.
 
 Los usuarios deberían poder:
 
@@ -56,7 +52,6 @@ Ejemplo:
 /
 📂
 ├── 📂css/
-│ ├── normalize.css
 │ └── style.css
 ├── 📂images/
 └── index.html
@@ -78,30 +73,14 @@ Ejemplo:
    - Instalación de módulos y dependencias
    - Vincular archivos y librerías
    - Iniciar proyecto con Git
-3. Marcado HTML
-   - Etiquetas `meta`
-   - Etiquetas `OG`
-4. Estilos CSS
+3. Estilos CSS
    - De arriba hacia abajo
    - Definición de variables
    - Estilos reutilizables
    - Estilos personalizados
    - Media queries
-5. Flujo de trabajo `mobile-first`
+4. Flujo de trabajo `mobile-first`
 
-**Fragmentos de codigo**
-
-Etiquetas `meta` para el SEO.
-
-```html
-<meta name="author" content="Nombre del autor" />
-<meta name="title" content="Título del proyecto" />
-<meta
-  name="description"
-  content="Breve descripción del contenido del proyecto"
-/>
-<title>Profile Card - Frontend Club</title>
-```
 
 Menú de navegación HTML usando BEM.
 
@@ -119,59 +98,19 @@ Menú de navegación HTML usando BEM.
     </li>
   </ul>
 </nav>
+
 ```
 
-Animaciones CSS.
-
-```css
-/* Estilos básicos del div */
-.scaley-div {
-  width: 200px;
-  height: 50px;
-  background-color: #3498db;
-  color: #fff;
-  text-align: center;
-  line-height: 50px;
-  cursor: pointer;
-  transition: transform 0.3s ease;
-}
-
-/* Estilo al hacer hover */
-.scaley-div:hover {
-  transform: scaleY(1.5);
-}
-```
-
-### Recursos
-
-Comparte los recursos que hayas utilizado para completar este proyecto.
-
-1. Este recurso me ayudó a crear efectos overlay sobre una imagen.
-   - [CSS Overlay](https://www.w3schools.com/howto/howto_css_image_overlay.asp)
-   - [Overlay](https://www.w3schools.com/howto/howto_css_image_overlay.asp)
-2. Este recurso me ayudó a crear tablas en HTML tipo zebra.
-   - [Zebra tables](https://www.w3schools.com/howto/howto_css_table_zebra.asp)
-3. Este recurso me ayudó a crear un timeline del tiempo para mi portafolio.
-   - [Timeline Workflow](https://www.w3schools.com/howto/howto_css_timeline.asp)
-
-## Agradecimientos
-
-Agradece a las personas que te inspiran a seguir adelante, o fuentes que te hayan impactado para ser mejor cada día.
-
-- Mi madre que siempre me apoya en mis proyectos
-- Mi amigo Juan que siempre me comparte recursos de desarrollo web
-- Mi profesor John que siempre escucha mis ideas
-- Comunidad Frontend Club que siempre están apoyando con cualquier mínima cosa que surja
+## Instalacion
 
 ## Contacto
 
 Agrega los medios de contacto para que cualquiera pueda encontrarte y hablar sobre tus siguientes grandes proyectos.
 
-- [LinkedIn](#)
-- [Facebook](#)
-- [GitHub](#)
-- [Correo](#)
-
+- [LinkedIn](https://www.linkedin.com/in/alejandro-villanueva-fernandez/)
+- [GitHub](https://github.com/alejo9456)
+- [Fronten Mentor](https://www.frontendmentor.io/profile/alejo9456)
+- [Portafolio](https://alejo-dev.vercel.app/)
 ---
 
 > _La mejor manera de aprender a programar es practicando todos los días._ — **Frontend Club**

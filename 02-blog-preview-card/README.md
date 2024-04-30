@@ -33,7 +33,7 @@ Capturas de pantalla en móvil y escritorio.
 
 Agrega los enlaces de la solución del proyecto y el repositorio.
 
-- [Proyecto](https://01-profilecard.vercel.app/)
+- [Proyecto](https://02-blogpreviewcard.vercel.app/)
 - [Repositorio](https://github.com/alejo9456/100daysofprojects/tree/main/02-blog-preview-card)
 
 ## Flujo de trabajo

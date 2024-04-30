@@ -5,34 +5,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Nombre del autor">
-    <meta name="title" content="Título del proyecto">
+    <meta name="author" content="Alejandro Villanueva">
+    <meta name="title" content="02-blog-preview-card">
     <meta name="description" content="Breve descripción del contenido del proyecto">
-    <!-- Boxicons -->
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <!-- Normalize -->
-    <link rel="stylesheet" href="css/normalize.css">
-    <!-- Estilos -->
     <link rel="stylesheet" href="css/styles.css">
-    <!-- Favicon -->
     <link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/x-icon">
     <title>Blog Preview Card - Frontend Club</title>
 </head>
 
 <body>
 
-    <h1>Frontend Club</h1>
-    <blockquote>
-        No te conformes con hacer las cosas bien, sino, busca la excelencia en todo lo que haces. Así te diferenciarás
-        de los demás y lograrás el éxito.
-    </blockquote>
-
-    <style>
-        h1,
-        blockquote {
-            text-align: center;
-        }
-    </style>
+    <main class="container">
+        <article class="card">
+            <img class="card__image" src="./images/illustration-article.svg" alt="image-illustration">
+            <div class="card__tag">Learning</div>
+            <time class="card__publication-date">Published 21 Dec 2023</time>
+            <h1 class="card__title">HTML & CSS foundations</h1>
+            <p class="card__description">These languages are the backbone of every website, defining structure, content, and presentation.</p>
+            <section class="card__autor-details">
+                <img class="card__author-image" src="./images/image-avatar.webp" alt="image-author">
+                <h2 class="card__author-name">Greg Hooper</h2>
+            </section>
+        </article>
+    </main>
 
 </body>
 

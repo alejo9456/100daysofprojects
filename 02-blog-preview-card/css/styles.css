@@ -1,30 +1,111 @@
-/* -----------------
-Tabla de contenidos:
---------------------
-1. Fuente ......................... 11
-2. Variables ...................... 15
-3. Estilos generales .............. 33
--------------------- */
 
-/* ----- Fuente ----- */
-@import url("https://fonts.googleapis.com/css2?family=Figtree:wght@600;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Figtree:wght@500;800&display=swap");
 
-/* ----- Variables ----- */
 :root {
-  /* colores */
-  --color: #181a1b;
-
-  /* config. */
-  --fuente: "Figtree", sans-serif;
-  --ft-size: 1rem;
-  --l-height: 22px;
+  --color-yellow:#F4D04E;
+  --color-white: hsl(0, 0%, 100%);
+  --color-grey: hsl(0, 0%, 50%);
+  --color-black: hsl(0, 0%, 7%);
+  --fw-thin: 500;
+  --fw-bold: 800;
 }
 
-/* ----------------------------- */
-/* ----- Estilos generales ----- */
-/* ----------------------------- */
-body {
-  font-family: var(--fuente);
-  background: linear-gradient(to right, #fffdcd, #a3e6ff);
-  color: var(--color);
+* {
+  font-family: 'Figtree', sans-serif;
+  font-size: 62.5%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: var(--color-yellow);
+  height: 100vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card{
+  box-shadow: none;
+  border:1px solid;
+  transition: box-shadow 0.3s ease-in-out;
+  border-radius: 1.6rem;
+  background-color: var(--color-white) ;
+  padding: 2.2rem;
+  height: 50.2rem;
+  width: 32.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.card:hover{
+  box-shadow: 10px 10px 0px 0px black;
+}
+
+.card__image {
+  border-radius: 0.8rem;
+  margin-bottom: 2.6rem;
+  height: 20rem;
+  width: 28rem;
+  object-fit: cover;
+}
+
+.card__tag {
+  font-size: 1.2rem;
+  font-weight: var(--fw-bold);
+  padding: 0.8rem 1rem; 
+  border-radius: 0.2rem;
+  background-color: var(--color-yellow);
+  margin-bottom: 1.7rem;
+  align-self: flex-start; 
+}
+
+.card__publication-date{
+  font-size: 1.4rem;
+  margin-bottom: 2.7rem;
+}
+
+.card__title {
+  font-size: 2rem;
+  font-weight: var(--fw-bold);
+  margin-bottom: 2.7rem;
+  cursor: pointer;
+}
+
+.card__title:hover {
+  color: var(--color-yellow);
+}
+
+.card__description {
+  font-weight: var(--fw-thin);
+  font-size: 1.4rem;
+  line-height: 1.2;
+  margin-bottom: 2.7rem;
+  color: var(--color-grey);
+}
+
+.card__author-details{
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.card__author-image {
+  width: 3.2rem;
+}
+
+.card__author-name{
+  font-size: 1.2rem;
+}
+
+
+@media screen and (min-width: 768px) {
+  .card{
+      width: 38.4rem;
+      height: 52.1rem;
+  }
+  .card__image{
+      width: 33.9rem;
+  }
 }

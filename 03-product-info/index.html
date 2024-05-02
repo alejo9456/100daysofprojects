@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,8 +9,6 @@
     <meta name="description" content="Breve descripción del contenido del proyecto">
     <!-- Boxicons -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <!-- Normalize -->
-    <link rel="stylesheet" href="css/normalize.css">
     <!-- Estilos -->
     <link rel="stylesheet" href="css/styles.css">
     <!-- Favicon -->
@@ -20,20 +17,32 @@
 </head>
 
 <body>
-
-    <h1>Frontend Club</h1>
-    <blockquote>
-        No te conformes con hacer las cosas bien, sino, busca la excelencia en todo lo que haces. Así te diferenciarás
-        de los demás y lograrás el éxito.
-    </blockquote>
-
-    <style>
-        h1,
-        blockquote {
-            text-align: center;
-        }
-    </style>
-
+    <main class="product__info">
+        <img class="product__info-image" src="./images/headphone.png" alt="image headphone">
+        <section class="product__info-section">
+            <span class="product__info-badge">Free shipping</span>
+            <h1 class="product__info-name">Razer Kraken Kitty Edt Gaming Headset Quartz</h1>
+            <p class="product__info-price--original">
+                <del>
+                    1 599,-
+                </del>
+            </p>
+            <p class="product__info-price--discount">799,-</p>
+            <p class="product__info-text">The offer is valid until April 3 or as long as stock lasts!</p>
+            <button class="product__info-button--add-to-cart">Add to cart</button>
+            <p class="product__info-stock">50+ pcs. in stock.</p>
+            <div class="product__info-actions">
+                <button>
+                    <img src="./images/add-card.svg" alt="add-card-image">
+                    Add to cart
+                </button>
+                <button>
+                    <img src="./images/add-wishlist.svg" alt="add-wishlist-image">
+                    Add to wishlist
+                </button>
+            </div>
+        </section>
+    </main>
 </body>
 
 </html>
